@@ -1,9 +1,9 @@
-public class rider {
+public class drivers {
     private String firstName;
     private String lastName;
     private int age;
     private String interests;
-    public rider (String fname, String lname, int age, String qualities){
+    public driver (String fname, String lname, int age, String qualities){
         this.lastName = lname;
         this.firstName = fname;
         this.age = age;
@@ -20,5 +20,5 @@ public class rider {
     }
     public String getInterest(){
         return interests;
-    }      
+    }
 }
